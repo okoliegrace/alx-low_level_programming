@@ -12,14 +12,14 @@ int main(void)
 	unsigned long int a = 0, b = 1, next = 0;
 while (i < 98)
 	{
-next = a + b;
-a = b;
-b = next;
-printf("%lu", next);
+	next = a + b;
+	a = b;
+	b = next;
+	printf("%lu", next);
 if (i < 97)
-printf(", ");
-i++;
+	printf(", ");
+	i++;
 	}
-putchar('\n');
+	putchar('\n');
 return (0);
 }
